@@ -2471,7 +2471,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .courses-area {
-  background: url("/img/header-bg.png");
+  background: url(../img/header-bg.png);
 }
 .courses-area .courses-right {
   background: #fff;
