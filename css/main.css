@@ -1964,7 +1964,7 @@ h6 {
 }
 
 #header.header-scrolled {
-  background: rgba(0, 0, 0, 0.9);
+  background: rgba(60, 72, 112, 0.9);
   transition: all 0.5s;
 }
 #header.header-scrolled .nav-menu li:hover > a,
@@ -2471,7 +2471,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .courses-area {
-  background: url(../img/header-bg.png);
+  background: url(../img/this.jpg);
 }
 .courses-area .courses-right {
   background: #fff;
@@ -3511,7 +3511,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /*  Footer Styles
 /* =================================== */
 .footer-area {
-  background: #283367;
+  background: url(../img/banner-bg.png);
 }
 @media (max-width: 991px) {
   .footer-area .single-footer-widget {
@@ -3617,3 +3617,71 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 /*# sourceMappingURL=main.css.map */
+.ftco-section {
+  padding: 7em 0;
+  position: relative;
+}
+
+.ftco-no-pt {
+  padding-top: 0;
+}
+.ftco-no-pb {
+  padding-bottom: 0;
+}
+
+.ftco-bg-dark {
+  background: #3c312e;
+}
+
+.ftco-footer {
+  font-size: 14px;
+  background: #232323;
+  padding: 6em 0;
+  .ftco-footer-widget {
+    width: 100%;
+    display: block;
+    h2 {
+      font-weight: normal;
+      color: $white;
+      margin-bottom: 40px;
+      font-size: 20px;
+      font-weight: 700;
+    }
+    .logo {
+      color: $primary;
+      span {
+        color: $secondary;
+      }
+    }
+    ul {
+      li {
+        a {
+          span {
+            color: $white;
+          }
+        }
+      }
+    }
+    .btn-primary {
+      background: $white !important;
+      border: 2px solid $white !important;
+      &:hover {
+        background: $white;
+        border: 2px solid $white !important;
+      }
+    }
+  }
+  p {
+    color: rgba($white, 0.7);
+  }
+  a {
+    color: rgba($white, 0.7);
+    &:hover {
+      color: $white;
+    }
+  }
+  .ftco-heading-2 {
+    font-size: 17px;
+    font-weight: 400;
+    color: $black;
+  }
